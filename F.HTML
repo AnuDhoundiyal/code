@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my web</title>
+
+    <link rel="stylesheet" href="F.CSS">  
+</head>
+<body>
+
+    <form action="web.html">
+
+        <div class="box">
+        <fieldset>
+            <legend style="font-size: x-large;"> Please Login here first </legend>
+            Name: <input type="text" required /><br><br>
+
+            Email: <input type="email" required /> <br><br>
+
+            Phone no. : <input type="tel"  placeholder="123-456-7890" 
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            required /><!--<input type="text" required pattern="^\(\d{2}\) \d{5}-\d{5}$" title="phone no. format should be (XX)XXXXX-XXXXX required">--> <br><br>
+
+            Gender:  <input type="radio" name="Gender" id="Female" value="Female"><label for="Gender">Female </label>
+                     <input type="radio" name="Gender" id="Male" value="Male"><label for="Gender">Male</label> <br><br>
+
+            State:  <select name="state" id="state" >
+                        <option value="state">choose</option>
+                        <option value="state">Andhra Pradesh</option>
+                        <option value="state">Arunachal Pradesh</option>
+                        <option value="state">Bihar</option>
+                        <option value="state">Chhattisgarh</option>
+                        <option value="state">Delhi</option>
+                        <option value="state">Gujarat</option>
+                        <option value="state">Haryana</option>
+                        <option value="state">Jharkhand</option>
+                        <option value="state">Karnataka</option>
+                        <option value="state">Ladakh</option>
+                        <option value="state">Maharashtra</option>
+                        <option value="state">Nagaland</option>
+                        <option value="state">Odisha</option>
+                        <option value="state">Punjab</option>
+                        <option value="state">Rajasthan</option>
+                        <option value="state">Sikkim</option>
+                        <option value="state">Tamil Nadu</option>
+                        <option value="state">Telangana</option>
+                        <option value="state">Uttarakhand</option>
+                        <option value="state">West Bengal</option>
+                    </select>
+           <!-- Univesity:  -->
+
+           <div class="done">
+           <button type="submit"> Sign in </button>
+           </div>
+
+        </div>
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>

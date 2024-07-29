@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+   <link rel="stylesheet" href="form.css">
+
+   <style>
+    body{
+        background-image: url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+       
+    }
+
+   </style>
+</head>
+<body> 
+    
+    <form action="web.html">
+        <div class="login">
+        <fieldset> 
+            <legend> Please Login here first</legend>
+            Name : <input type="text">
+            <br><br>
+            email : <input type="email">
+            <br><br>
+            Phone no. : <input type="tel">
+            <br><br>
+            Gender : &nbsp;<input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Gender">Female</label> <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Gender">Male</label> <br> <br>
+
+            
+            <label for="Country"> Country : &nbsp; &nbsp; </label>
+                <select name="Country" id="Country">
+                    <option value="INDIA">INDIA</option>
+                    <option value="USA">USA</u></option>
+                    <option value="RUSSIA">RUSSIA</option>
+                    <option value="china">CHINA</option>
+                    <option value="korea">KOREA</option>
+                    <option value=""></option>
+                </select>
+            <br><br>
+
+            <div class="butt"><button type="submit" >login</button></div>
+
+        </fieldset>
+    </div>
+    </form>
+    
+</body>
+</html>

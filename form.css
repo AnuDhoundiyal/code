@@ -1,0 +1,71 @@
+
+
+element.style {
+    width: unset;
+    font-size: larger;
+    font-style: italic;
+}
+
+legend {
+    font-size: xx-large;
+    padding: 20px;
+    align-content: center;
+}
+
+form {
+    padding-block: 80px;
+    padding-left: 450px;
+    padding-right: 450px;
+    
+
+}
+
+input[type="text"] {
+    padding-block: 4px;
+    border-radius: 9px;
+    width: 260px;
+}
+
+input[type="email"] {
+    padding-block: 4px;
+    border-radius: 9px;
+    width: 260px;
+}
+
+input[type="tel"] {
+    padding: 4px;
+    border-radius: 9px;
+    width: 230px;
+}
+
+select#Country {
+    padding: 4px;
+    border-radius: 8px;
+    width: 90px;
+    height: auto;
+}
+
+
+.butt {
+    color: seagreen;
+    padding-block: 18px;
+    width: 350px;
+    position: relative;
+    text-align: -webkit-center;
+    margin: 0;
+    display: inherit;
+}
+
+button {
+    padding: 4px;
+    color: white;
+    border-radius: 18px;
+    width: 104px;
+    height: 38px;
+    font-size: x-large;
+    background-color: #53a753;
+}
+
+.login {
+    background: white;
+}
